@@ -23,6 +23,7 @@ public class JdbcMemberRepository implements MemberRepository {
         Connection conn = null;
         PreparedStatement pstmt = null;
         ResultSet rs = null;
+
         try {
             conn = getConnection();
             pstmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
