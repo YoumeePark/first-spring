@@ -1,6 +1,4 @@
-package hello.hello_spring.controller;
-
-import org.springframework.web.bind.annotation.PostMapping;
+package hello.hellospring.controller;
 
 public class MemberForm {
     private String name;
